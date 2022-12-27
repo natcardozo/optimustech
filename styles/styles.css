@@ -1,0 +1,16 @@
+@import url("./_reset.css");
+@import url("./_variaveis.css");
+@import url("./componentes/_cabecalho.css");
+@import url("./componentes/_sobre-nos.css");
+@import url("./componentes/_nossos-numeros.css");
+@import url("./componentes/_vagas.css");
+@import url("./componentes/_depoimentos.css");
+@import url("./componentes/_rodape.css");
+
+body {
+    font-family: var(--fonte);
+    color: var(--preto);
+    width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}

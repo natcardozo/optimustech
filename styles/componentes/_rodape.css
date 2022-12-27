@@ -1,0 +1,63 @@
+.rodape {
+    background-color: var(--fundo-rodape);
+    left: 0;
+    padding: 96px 0;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+}
+
+.rodape__conteudo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: var(--peso-maior);
+    margin-bottom: 36px;
+    margin-top: 24px;
+}
+
+.rodape p {
+    color: var(--cinza);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.rodape__formulario {
+    margin-bottom: 32px;
+}
+
+.formulario__input {
+    border-radius: 8px;
+    border: 1px solid var(--cinza-borda);
+    box-sizing: border-box;
+    height: 48px;
+    margin-right: 16px;
+    padding: 14px 16px;
+    width: 360px;
+}
+
+.formulario__input:focus {
+    outline: none;
+}
+
+.formulario__botao {
+    background-color: var(--bordo);
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: var(--peso-medio);
+    height: 48px;
+    padding: 12px 20px;
+}
+
+.rodape__conteudo span {
+    color: var(--cinza-claro);
+    font-size: 16px;
+}

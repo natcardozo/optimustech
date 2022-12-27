@@ -1,0 +1,27 @@
+.nossos-numeros{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.nossos-numeros__card {
+    width: 280px;
+}
+
+.card__destaque {
+    font-size: 72px;
+    font-weight: var(--peso-maior);
+    color: var(--bordo);
+    margin-bottom: 12px;
+}
+
+.card__titulo {
+    font-weight: var(--peso-medio);
+    font-size: 18px;
+}
+
+.nossos-numeros__card p {
+    font-size: 16px;
+    color: var(--cinza);
+    margin-top: 8px;
+}

@@ -1,0 +1,24 @@
+.sobre-nos {
+    margin: 107px auto;
+    text-align: center;
+    width: 800px;
+}
+
+.sobre-nos__tag {
+    color: var(--bordo);
+    font-size: 16px;
+    font-weight: var(--peso-maior);
+}
+
+.sobre-nos__titulo {
+    font-size: 48px;
+    font-weight: var(--peso-maior);
+    margin-bottom: 36px;
+    margin-top: 24px;
+}
+
+.sobre-nos p {
+    color: var(--cinza);
+    font-size: 20px;
+    line-height: 30px;
+}
